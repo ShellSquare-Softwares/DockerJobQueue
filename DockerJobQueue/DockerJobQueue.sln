@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DockerJobQueue", "DockerJobQueue\DockerJobQueue.csproj", "{7657083D-3688-4CA1-AC7A-D18385D78E90}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JobQueue.Common", "JobQueue.Common\JobQueue.Common.csproj", "{66FCC685-32E4-4F81-A426-950E83C0975D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JobQueue.ClientLibrary", "JobQueue.ClientLibrary\JobQueue.ClientLibrary.csproj", "{D2F6FFC7-3C48-481F-AE38-EC8ADF084368}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7657083D-3688-4CA1-AC7A-D18385D78E90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7657083D-3688-4CA1-AC7A-D18385D78E90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7657083D-3688-4CA1-AC7A-D18385D78E90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7657083D-3688-4CA1-AC7A-D18385D78E90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66FCC685-32E4-4F81-A426-950E83C0975D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66FCC685-32E4-4F81-A426-950E83C0975D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66FCC685-32E4-4F81-A426-950E83C0975D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66FCC685-32E4-4F81-A426-950E83C0975D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2F6FFC7-3C48-481F-AE38-EC8ADF084368}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2F6FFC7-3C48-481F-AE38-EC8ADF084368}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2F6FFC7-3C48-481F-AE38-EC8ADF084368}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2F6FFC7-3C48-481F-AE38-EC8ADF084368}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {26A01BBC-A777-492A-88CD-CA4ACB3F2D3E}
+	EndGlobalSection
+EndGlobal
